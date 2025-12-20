@@ -1,1 +1,1 @@
-# GarbageDetection
+# GarbageDetection V2
