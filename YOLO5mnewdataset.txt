@@ -79,3 +79,41 @@ Haswell Road 11_T_T_0_1
 Miller Road 1_T_T_2_1
 Miller Road 10_T_F_1_1
 Miller Road 11_F_F_2_1
+Target 1.JPG_T_F_0_0
+Target 2.jpg_T_F_3_1
+Target 3.jpg_F_F_5_1
+Target 4.jpg_F_F_4_1
+Target 5.jpg_F_F_1_0
+Target 6.jpg_T_T_0_2
+Target 7.jpg_T_F_0_1
+Target 8.jpg_F_F_2_0
+Target 9.jpg_F_F_1_1
+Target 10.jpg_T_F_0_0
+Target 11.jpg_T_F_0_0 DUPLICATE
+Target 12.jpg_F_F_2_0
+Target 13.jpg_F_F_2_0
+Target 14.jpg_F_F_2_1
+Target 15.jpg_F_F_0_1
+Target 16.jpg_F_F_0_0
+Target 17.jpg_T_F_1_0
+Target 18.jpg_F_F_0_0
+Target 19.jpg_T_F_0_0
+Target 20.jpg_F_F_3_1
+Target 21.jpg_F_F_2_2 DUPLICATE
+Target 22.jpg_F_F_0_0
+Target 23.jpg_F_F_2_0
+Target 24.jpg_F_F_2_0
+Target 25.jpg_T_F_1_0
+Target 26.jpg_F_F_1_1
+Target 27.jpg_F_F_10_4
+Target 28.jpg_T_F_1_0
+Target 29.jpg_F_T_1_0
+Target 30.jpg_F_F_1_1
+Target 31.jpg_F_F_3_1
+Target 32.jpg_F_F_1_1
+Target 33.jpg_F_F_1_0
+Target 34.jpg_F_F_5_1
+Target 35.jpg_T_F_1_0
+Target 36.jpg_T_F_1_3
+Target 37.jpg_F_F_2_1 DUPLICATE
+Target 38.jpg_T_F_1_0

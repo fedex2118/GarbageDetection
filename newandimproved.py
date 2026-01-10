@@ -38,11 +38,10 @@ def drawsquare(img, b,show):
 
 
 
-def computeApproxArea(d,img):
+def computeApproxArea(d,img,kernel_size):
     area=0
     total=0
     height, width, channels = img.shape
-    kernel_size = 500
     w=1/kernel_size
     h=1/kernel_size
     for x in range(kernel_size):
@@ -85,7 +84,7 @@ if __name__=="__main__":
         filenames = [f for f in listdir(location) if isfile(join(location, f))]
         for file in filenames:
             area = 0
-            d={}
+            d=[]
             try:
                 with open(location+"/labels/"+(file.split(".")[0]+".txt"),"r") as f:
                     img = cv2.imread(location+"/"+file)
@@ -95,20 +94,14 @@ if __name__=="__main__":
                     totalArea = height*width
                     boxes = f.readlines()
                     for b in boxes:
-
                         b = b.replace('\n',"")
                         b = b.split(" ")
                         for x in range(len(b)):
                             b[x]= float(b[x])
-                        w = float(width)*float(b[3])
-                        h = float(height)*float(b[4])
-                        if (-int(w*h)) in d.keys():
-                            d[-int(w*h)].append(b)
-                        else: d[-int(w*h)]=[b]
+                        d.append(b)
 
 
-                od = collections.OrderedDict(sorted(d.items()))
-                results[file]=computeApproxArea(od,img)
+                results[file]=computeApproxArea(d,img,100)
   
             except FileNotFoundError:
                 results[file]=0
@@ -134,7 +127,7 @@ if __name__=="__main__":
                     for x in range(len(b)):
                         b[x]= float(b[x])
                     d.append(b)
-                area = computeApproxArea(d,img)
+                area = computeApproxArea(d,img,500)
                 
             print(area)
         except FileNotFoundError:
