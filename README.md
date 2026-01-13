@@ -1,6 +1,7 @@
 # Trash detection & quantity estimation
 
-This project was based on the analysis of Optimizing Waste Management with Advanced Object Detection for Garbage Classification by Everest Z. Kuang: https://arxiv.org/html/2410.09975v1
+This project was based on the analysis of Optimizing Waste Management with Advanced Object Detection for Garbage Classification by Everest Z. Kuang: https://arxiv.org/html/2410.09975v1.
+
 This is the corresponding repository: https://github.com/everestkuang/GarbageDetectionYoloV5
 
 # Structure
